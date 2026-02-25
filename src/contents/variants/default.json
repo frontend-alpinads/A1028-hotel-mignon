@@ -1,30 +1,54 @@
 {
   "$schema": "../variant-spec.schema.json",
   "sectionVariants": [
-    { "hero": "v12" },
-    { "about": "v4" },
-    { "features": "v1" },
-    { "offers": "v1" },
-    { "rooms": "v6" },
-    { "gallery": "v5" },
-    { "testimonials": "v6" },
-    { "faqs": "v1" },
-    { "enquiry": "v1" },
-    { "footer": "v2" }
+    {
+      "hero": "v12"
+    },
+    {
+      "about": "v4"
+    },
+    {
+      "features": "v1"
+    },
+    {
+      "offers": "v1"
+    },
+    {
+      "rooms": "v6"
+    },
+    {
+      "gallery": "v5"
+    },
+    {
+      "testimonials": "v6"
+    },
+    {
+      "faqs": "v1"
+    },
+    {
+      "enquiry": "v1"
+    },
+    {
+      "footer": "v2"
+    }
   ],
   "content": {
     "hero": {
       "title": {
-        "de": "Urlaub in Südtirol",
-        "en": "Holiday in South Tyrol",
-        "it": "Vacanza in Alto Adige"
+        "de": "Ihr 5-Sterne-Hotel in Meran, Südtirol",
+        "en": "Your 5-Star Hotel in Merano, South Tyrol",
+        "it": "Il Vostro Hotel 5 Stelle a Merano, Alto Adige"
       },
       "subtitle": {
-        "de": "Willkommen in unserem Hotel in den Dolomiten. Genießen Sie atemberaubende Berglandschaften, erstklassigen Service und unvergessliche Momente der Entspannung.",
-        "en": "Welcome to our hotel in the Dolomites. Enjoy breathtaking mountain landscapes, first-class service and unforgettable moments of relaxation.",
-        "it": "Benvenuti nel nostro hotel nelle Dolomiti. Godetevi paesaggi montani mozzafiato, servizio di prima classe e momenti di relax indimenticabili."
+        "de": "Eine Auszeit, die das Leben versüßt und die Seele wärmt. Inmitten eines 10.000 m² großen Parks mit 2.000 m² Park Spa.",
+        "en": "A retreat that sweetens life and warms the soul. Nestled in a 10,000 m² park with 2,000 m² Park Spa.",
+        "it": "Una pausa che addolcisce la vita e scalda l'anima. Immerso in un parco di 10.000 m² con 2.000 m² di Park Spa."
       },
-      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "images": [
+        "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--73_2525.png",
+        "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--70_2386.jpg",
+        "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--67_2330.jpg"
+      ],
       "bookingForm": {
         "arrivalDeparture": {
           "de": "Datum wählen",
@@ -84,84 +108,120 @@
         "it": "Benvenuti"
       },
       "title": {
-        "de": "Unser Hotel",
-        "en": "Our Hotel",
-        "it": "Il Nostro Hotel"
+        "de": "Das 5 Sterne Luxushotel in Südtirol",
+        "en": "The 5 Star Luxury Hotel in South Tyrol",
+        "it": "L'hotel di lusso a 5 stelle in Alto Adige"
       },
       "description": {
-        "de": "Unser Hotel verbindet Tradition mit modernem Komfort. Eingebettet in die malerische Landschaft Südtirols, bieten wir Ihnen eine Oase der Ruhe und Entspannung. Genießen Sie großzügige Räumlichkeiten, erstklassigen Service und eine herzliche Atmosphäre.",
-        "en": "Our hotel combines tradition with modern comfort. Nestled in the picturesque landscape of South Tyrol, we offer you an oasis of peace and relaxation. Enjoy spacious rooms, first-class service and a warm atmosphere.",
-        "it": "Il nostro hotel unisce tradizione e comfort moderno. Immerso nel pittoresco paesaggio dell'Alto Adige, vi offriamo un'oasi di pace e relax. Godetevi spazi ampi, servizio di prima classe e un'atmosfera accogliente."
+        "de": "Schließen Sie die Augen und stellen Sie sich vor: ein großer mediterraner Park mit uralten Bäumen, Zedern und Palmen. Berge als natürliche Kulisse. Eine leichte Brise. Stille, die guttut. Und doch nur 5 Gehminuten von der Altstadt Merans entfernt. Im Herzen von Meran liegt unser exklusives 5-Sterne-Hotel inmitten einer 10.000 m² großen Parkanlage. Unser 2.000 m² Park Spa lädt zur Entspannung ein, während unser Gourmetmenü Südtiroler Tradition neu interpretiert. Die luxuriösen Suiten bieten Ihnen Ruhe und Weitblick. Entdecken Sie das perfekte Zusammenspiel aus stilvollem Ambiente, herzlicher Gastfreundschaft und unvergleichlichem Komfort.",
+        "en": "Close your eyes and imagine: a large Mediterranean park with ancient trees, cedars and palms. Mountains as a natural backdrop. A gentle breeze. Silence that feels good. And yet only 5 minutes' walk from Merano's old town. In the heart of Merano, our exclusive 5-star hotel lies amidst a 10,000 m² park. Our 2,000 m² Park Spa invites you to relax, while our gourmet menu reinterprets South Tyrolean tradition. The luxurious suites offer you peace and perspective. Discover the perfect interplay of stylish ambience, warm hospitality and incomparable comfort.",
+        "it": "Chiudete gli occhi e immaginate: un grande parco mediterraneo con alberi secolari, cedri e palme. Montagne come sfondo naturale. Una leggera brezza. Silenzio che fa bene. Eppure a soli 5 minuti a piedi dal centro storico di Merano. Nel cuore di Merano, il nostro esclusivo hotel a 5 stelle si trova all'interno di un parco di 10.000 m². La nostra Park Spa di 2.000 m² invita al relax, mentre il nostro menù gourmet reinterpreta la tradizione altoatesina. Le lussuose suite offrono pace e prospettiva. Scoprite la perfetta interazione tra ambiente raffinato, calorosa ospitalità e comfort ineguagliabile."
       },
       "images": [
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg"
+        "https://www.hotelmignon.com/grafik/resize/530x663_upload-website-element--highlights--196_img1_2382.jpg",
+        "https://www.hotelmignon.com/grafik/resize/530x663_upload-website-element--highlights--196_img2_2383.jpg",
+        "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--33_2516.jpg"
       ]
     },
     "features": {
       "badge": {
-        "de": "Ihre Urlaubs-Highlights",
-        "en": "Your Holiday Highlights",
-        "it": "I Vostri Lussi"
+        "de": "Highlights",
+        "en": "Highlights",
+        "it": "Highlights"
       },
       "title": {
-        "de": "Hochwertig, persönlich, natürlich",
-        "en": "High-quality, personalised, natural",
-        "it": "Qualità, intimità, naturalità"
+        "de": "Wo Urlaub Seele hat und jeder Tag ein Lieblingsplatz ist",
+        "en": "Where Holidays Have Soul and Every Day is a Favourite Place",
+        "it": "Dove la vacanza ha un'anima e ogni giorno è un posto preferito"
       },
       "description": {
-        "de": "Erleben Sie unvergessliche Momente in Südtirol. Wandern, Skifahren, Wellness und kulinarische Genüsse erwarten Sie in einer der schönsten Regionen der Alpen.",
-        "en": "Experience unforgettable moments in South Tyrol. Hiking, skiing, wellness and culinary delights await you in one of the most beautiful regions of the Alps.",
-        "it": "Vivete momenti indimenticabili in Alto Adige. Escursioni, sci, wellness e delizie culinarie vi aspettano in una delle regioni più belle delle Alpi."
+        "de": "Erleben Sie puren Luxus und Entspannung in unserem 5-Sterne-Hotel in Meran. Von der exklusiven Wellness-Oase bis zur regionalen Gourmetküche – bei uns wird jeder Moment zum unvergesslichen Erlebnis.",
+        "en": "Experience pure luxury and relaxation in our 5-star hotel in Merano. From the exclusive wellness oasis to regional gourmet cuisine – with us, every moment becomes an unforgettable experience.",
+        "it": "Vivete il lusso puro e il relax nel nostro hotel a 5 stelle a Merano. Dall'esclusiva oasi di benessere alla cucina gourmet regionale – con noi ogni momento diventa un'esperienza indimenticabile."
       },
       "items": [
         {
           "title": {
-            "de": "Restaurant & Terrasse",
-            "en": "Restaurant & Terrace",
-            "it": "Ristorante & Terrazza"
+            "de": "2.000 m² Park Spa",
+            "en": "2,000 m² Park Spa",
+            "it": "2.000 m² Park Spa"
           },
           "description": {
-            "de": "Genießen Sie regionale Spezialitäten und internationale Küche auf unserer Sonnenterrasse mit Blick auf die Berge.",
-            "en": "Enjoy regional specialities and international cuisine on our sun terrace with mountain views.",
-            "it": "Gustate specialità regionali e cucina internazionale sulla nostra terrazza soleggiata con vista sulle montagne."
+            "de": "Großzügiger Wellness-Bereich mit Outdoor und Indoor Pool, Dachterrasse mit Bio-Sauna, Whirlpool und umfangreicher Saunawelt für pure Entspannung.",
+            "en": "Spacious wellness area with outdoor and indoor pool, roof terrace with organic sauna, whirlpool and extensive sauna world for pure relaxation.",
+            "it": "Ampia area benessere con piscina esterna e interna, terrazza panoramica con sauna biologica, idromassaggio e vasto mondo sauna per puro relax."
           },
-          "imageSrc": "/placeholder.svg",
+          "imageSrc": "https://www.hotelmignon.com/grafik/resize/700x911_upload-website-element--park-spa--83_img3_1410.jpg",
+          "iconName": "PoolIcon"
+        },
+        {
+          "title": {
+            "de": "Regional-mediterrane Gourmetküche",
+            "en": "Regional-Mediterranean Gourmet Cuisine",
+            "it": "Cucina Gourmet Regionale-Mediterranea"
+          },
+          "description": {
+            "de": "Südtiroler Genuss aus Liebe zum Produkt. Unser Gourmetmenü interpretiert regionale Tradition neu und verwöhnt Sie mit erlesenen Köstlichkeiten.",
+            "en": "South Tyrolean pleasure from love of the product. Our gourmet menu reinterprets regional tradition and pampers you with exquisite delicacies.",
+            "it": "Piacere altoatesino per amore del prodotto. Il nostro menù gourmet reinterpreta la tradizione regionale e vi coccola con prelibatezze squisite."
+          },
+          "imageSrc": "https://www.hotelmignon.com/grafik/resize/700x911_upload-website-element--kulinarik--83_img2_2391.jpg",
           "iconName": "ForkKnifeIcon"
         },
         {
           "title": {
-            "de": "Wellness & Spa",
-            "en": "Wellness & Spa",
-            "it": "Wellness & Spa"
+            "de": "Luxuriöse Zimmer & Suiten",
+            "en": "Luxurious Rooms & Suites",
+            "it": "Camere & Suite Lussuose"
           },
           "description": {
-            "de": "Entspannen Sie in unserem Wellnessbereich mit Sauna, Dampfbad und Behandlungsräumen.",
-            "en": "Relax in our wellness area with sauna, steam bath and treatment rooms.",
-            "it": "Rilassatevi nella nostra area wellness con sauna, bagno turco e sale trattamenti."
+            "de": "Erstklassig gestaltet mit allem Luxus ausgestattet. Deluxe Zimmer, Suiten und Penthouse-Suiten mit privater Dachterrasse als Ihr privates Refugium.",
+            "en": "First-class designed and equipped with every luxury. Deluxe rooms, suites and penthouse suites with private roof terrace as your private refuge.",
+            "it": "Design di prima classe dotato di ogni lusso. Camere deluxe, suite e suite attico con terrazza panoramica privata come vostro rifugio privato."
           },
-          "imageSrc": "/placeholder.svg",
+          "imageSrc": "https://www.hotelmignon.com/grafik/resize/700x911_upload-website-element--zimmer-suiten--83_img1_2483.jpg",
+          "iconName": "StarIcon"
+        },
+        {
+          "title": {
+            "de": "10.000 m² Parkanlage",
+            "en": "10,000 m² Park",
+            "it": "Parco di 10.000 m²"
+          },
+          "description": {
+            "de": "Liebevoll gepflegte mediterrane Parkanlage mit Palmen und alten Zedern. Ein Ort der Ruhe und Erholung im Herzen von Meran.",
+            "en": "Lovingly maintained Mediterranean park with palms and old cedars. A place of peace and relaxation in the heart of Merano.",
+            "it": "Parco mediterraneo amorevolmente curato con palme e vecchi cedri. Un luogo di pace e relax nel cuore di Merano."
+          },
+          "imageSrc": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--37_2287.jpg",
           "iconName": "FlowerLotusIcon"
         },
         {
           "title": {
-            "de": "Bergerlebnis",
-            "en": "Mountain Experience",
-            "it": "Esperienza Montana"
+            "de": "Belvita Leading Wellnesshotel",
+            "en": "Belvita Leading Wellness Hotel",
+            "it": "Belvita Leading Wellnesshotel"
           },
           "description": {
-            "de": "Entdecken Sie die Dolomiten mit geführten Wanderungen, Skifahren und vielen weiteren Aktivitäten.",
-            "en": "Discover the Dolomites with guided hikes, skiing and many other activities.",
-            "it": "Scoprite le Dolomiti con escursioni guidate, sci e tante altre attività."
+            "de": "Ausgezeichnetes Wellnesshotel mit höchsten Standards. Gesundheit und Entspannung auf 2.000 m² für Körper, Geist und Seele.",
+            "en": "Award-winning wellness hotel with the highest standards. Health and relaxation on 2,000 m² for body, mind and soul.",
+            "it": "Hotel benessere pluripremiato con gli standard più elevati. Salute e relax su 2.000 m² per corpo, mente e anima."
           },
-          "imageSrc": "/placeholder.svg",
+          "imageSrc": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--63_2278.jpg",
+          "iconName": "HeartIcon"
+        },
+        {
+          "title": {
+            "de": "Zentrale Lage in Meran",
+            "en": "Central Location in Merano",
+            "it": "Posizione Centrale a Merano"
+          },
+          "description": {
+            "de": "Nur 5 Gehminuten von der Altstadt Merans entfernt und dennoch in ruhiger Lage. Der perfekte Ausgangspunkt für Ihre Aktivitäten.",
+            "en": "Only 5 minutes' walk from Merano's old town yet in a quiet location. The perfect starting point for your activities.",
+            "it": "A soli 5 minuti a piedi dal centro storico di Merano, ma in posizione tranquilla. Il punto di partenza perfetto per le vostre attività."
+          },
+          "imageSrc": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--36_2535.jpg",
           "iconName": "MountainIcon"
         }
       ]
@@ -173,14 +233,14 @@
         "it": "Impressioni"
       },
       "title": {
-        "de": "Entdecken Sie unser Hotel",
-        "en": "Discover Our Hotel",
-        "it": "Scoprite il Nostro Hotel"
+        "de": "Erleben Sie das Hotel Mignon",
+        "en": "Experience Hotel Mignon",
+        "it": "Scoprite l'Hotel Mignon"
       },
       "description": {
-        "de": "Werfen Sie einen Blick auf unsere Zimmer, den Wellnessbereich, das Restaurant und die atemberaubende Umgebung in den Dolomiten.",
-        "en": "Take a look at our rooms, wellness area, restaurant and the stunning surroundings in the Dolomites.",
-        "it": "Date un'occhiata alle nostre camere, all'area wellness, al ristorante e allo splendido paesaggio delle Dolomiti."
+        "de": "Lassen Sie sich von der einzigartigen Atmosphäre unseres 5-Sterne-Hotels verzaubern. Von eleganten Suiten über den weitläufigen Park Spa bis zur exquisiten Gourmetküche.",
+        "en": "Let yourself be enchanted by the unique atmosphere of our 5-star hotel. From elegant suites to the spacious Park Spa to exquisite gourmet cuisine.",
+        "it": "Lasciatevi incantare dall'atmosfera unica del nostro hotel a 5 stelle. Dalle eleganti suite alla spaziosa Park Spa fino alla squisita cucina gourmet."
       },
       "viewAll": {
         "de": "Alle Fotos ansehen",
@@ -193,10 +253,10 @@
           "en": "All",
           "it": "Tutte"
         },
-        "apartments-suites": {
-          "de": "Apartments & Suites",
-          "en": "Apartments & Suites",
-          "it": "Appartamenti & Suite"
+        "rooms": {
+          "de": "Zimmer",
+          "en": "Rooms",
+          "it": "Camere"
         },
         "wellness": {
           "de": "Wellness",
@@ -204,9 +264,9 @@
           "it": "Wellness"
         },
         "cuisine": {
-          "de": "Frühstück & Genuss",
-          "en": "Breakfast & Enjoyment",
-          "it": "Colazione & Piacere"
+          "de": "Küche",
+          "en": "Cuisine",
+          "it": "Cucina"
         },
         "experiences": {
           "de": "Erlebnisse",
@@ -215,28 +275,10 @@
         }
       },
       "categories": {
-        "apartments-suites": "apartments-suites",
+        "rooms": "rooms",
         "wellness": "wellness",
         "cuisine": "cuisine",
         "experiences": "experiences"
-      },
-      "highlightImages": {
-        "desktop": [
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg"
-        ],
-        "mobile": [
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg"
-        ]
       },
       "popup": {
         "title": {
@@ -250,85 +292,130 @@
           "it": "Chiudi galleria"
         }
       },
+      "highlightImages": {
+        "desktop": [
+          "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--73_2525.png",
+          "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--70_2386.jpg",
+          "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--67_2330.jpg",
+          "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--33_2516.jpg",
+          "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--37_2287.jpg",
+          "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--63_2278.jpg",
+          "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--36_2535.jpg",
+          "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--76_2533.jpg"
+        ],
+        "mobile": [
+          "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--73_2525.png",
+          "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--70_2386.jpg",
+          "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--67_2330.jpg",
+          "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--33_2516.jpg"
+        ]
+      },
       "images": [
         {
-          "src": "/placeholder.svg",
+          "src": "https://www.hotelmignon.com/grafik/resize/700x911_upload-website-element--zimmer-suiten--83_img1_2483.jpg",
           "alt": {
-            "de": "Hotel Außenansicht",
-            "en": "Hotel exterior",
-            "it": "Esterno dell'hotel"
+            "de": "Luxuriöse Suite mit Balkon",
+            "en": "Luxurious Suite with Balcony",
+            "it": "Suite lussuosa con balcone"
           },
-          "category": "other"
+          "category": "rooms"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--73_2525.png",
           "alt": {
-            "de": "Zimmer 1",
-            "en": "Room 1",
-            "it": "Camera 1"
+            "de": "Elegantes Zimmer mit Bergblick",
+            "en": "Elegant Room with Mountain View",
+            "it": "Camera elegante con vista sulle montagne"
           },
-          "category": "apartments-suites"
+          "category": "rooms"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://www.hotelmignon.com/grafik/resize/700x911_upload-website-element--park-spa--83_img3_1410.jpg",
           "alt": {
-            "de": "Zimmer 2",
-            "en": "Room 2",
-            "it": "Camera 2"
-          },
-          "category": "apartments-suites"
-        },
-        {
-          "src": "/placeholder.svg",
-          "alt": {
-            "de": "Wellness 1",
-            "en": "Wellness 1",
-            "it": "Wellness 1"
+            "de": "Park Spa Wellness-Bereich",
+            "en": "Park Spa Wellness Area",
+            "it": "Area benessere Park Spa"
           },
           "category": "wellness"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--63_2278.jpg",
           "alt": {
-            "de": "Wellness 2",
-            "en": "Wellness 2",
-            "it": "Wellness 2"
+            "de": "Outdoor Pool im Park",
+            "en": "Outdoor Pool in Park",
+            "it": "Piscina esterna nel parco"
           },
           "category": "wellness"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://www.hotelmignon.com/grafik/resize/700x911_upload-website-element--kulinarik--83_img2_2391.jpg",
           "alt": {
-            "de": "Restaurant 1",
-            "en": "Restaurant 1",
-            "it": "Ristorante 1"
+            "de": "Gourmet-Menü",
+            "en": "Gourmet Menu",
+            "it": "Menù gourmet"
           },
           "category": "cuisine"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--70_2386.jpg",
           "alt": {
-            "de": "Restaurant 2",
-            "en": "Restaurant 2",
-            "it": "Ristorante 2"
+            "de": "Restaurant mit Ambiente",
+            "en": "Restaurant with Ambience",
+            "it": "Ristorante con atmosfera"
           },
           "category": "cuisine"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--37_2287.jpg",
           "alt": {
-            "de": "Erlebnisse 1",
-            "en": "Experiences 1",
-            "it": "Esperienze 1"
+            "de": "Mediterraner Hotelpark",
+            "en": "Mediterranean Hotel Park",
+            "it": "Parco mediterraneo dell'hotel"
           },
           "category": "experiences"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--36_2535.jpg",
           "alt": {
-            "de": "Erlebnisse 2",
-            "en": "Experiences 2",
-            "it": "Esperienze 2"
+            "de": "Meran Altstadt in der Nähe",
+            "en": "Merano Old Town Nearby",
+            "it": "Centro storico di Merano nelle vicinanze"
+          },
+          "category": "experiences"
+        },
+        {
+          "src": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--33_2516.jpg",
+          "alt": {
+            "de": "Hotelansicht mit Park",
+            "en": "Hotel View with Park",
+            "it": "Vista dell'hotel con parco"
+          },
+          "category": "experiences"
+        },
+        {
+          "src": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--76_2533.jpg",
+          "alt": {
+            "de": "Entspannung im Spa",
+            "en": "Relaxation in the Spa",
+            "it": "Relax nella spa"
+          },
+          "category": "wellness"
+        },
+        {
+          "src": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--77_2558.jpg",
+          "alt": {
+            "de": "Stilvolle Hotellobby",
+            "en": "Stylish Hotel Lobby",
+            "it": "Elegante hall dell'hotel"
+          },
+          "category": "experiences"
+        },
+        {
+          "src": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--23_2496.jpg",
+          "alt": {
+            "de": "Gemütliche Atmosphäre",
+            "en": "Cosy Atmosphere",
+            "it": "Atmosfera accogliente"
           },
           "category": "experiences"
         }
@@ -341,16 +428,16 @@
         "it": "La Vostra Richiesta"
       },
       "title": {
-        "de": "Ihr perfekter Urlaub beginnt hier...",
-        "en": "Your Perfect Holiday Starts Here...",
-        "it": "La vostra vacanza perfetta inizia qui..."
+        "de": "Unverbindliche Anfrage",
+        "en": "Non-binding Enquiry",
+        "it": "Richiesta non Vincolante"
       },
       "description": {
-        "de": "Wir freuen uns auf Ihre Anfrage! Unser Team berät Sie gerne persönlich und erstellt Ihnen ein individuelles Angebot für Ihren Traumurlaub in Südtirol.",
-        "en": "We look forward to your enquiry! Our team will be happy to advise you personally and create a customised offer for your dream holiday in South Tyrol.",
-        "it": "Non vediamo l'ora di ricevere la vostra richiesta! Il nostro team sarà lieto di consigliarvi personalmente e creare un'offerta personalizzata per la vostra vacanza da sogno in Alto Adige."
+        "de": "Senden Sie uns Ihre unverbindliche Anfrage und wir melden uns innerhalb von 24 Stunden mit Ihrem persönlichen Angebot.",
+        "en": "Send us your non-binding enquiry and we will respond within 24 hours with your personalised offer.",
+        "it": "Inviateci la vostra richiesta non vincolante e vi risponderemo entro 24 ore con la vostra offerta personalizzata."
       },
-      "backgroundImage": "/placeholder.svg",
+      "backgroundImage": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--67_2330.jpg",
       "form": {
         "roomType": {
           "label": {
@@ -458,9 +545,9 @@
           "it": "*Accetto l'informativa sulla privacy"
         },
         "responseTime": {
-          "de": "Wir melden uns innerhalb von 24 Stunden mit Ihrem persönlichen Angebot – wir freuen uns auf Sie!",
-          "en": "We will respond within 24 hours with your personalised offer – we look forward to welcoming you!",
-          "it": "Risponderemo entro 24 ore con la vostra offerta personalizzata – non vediamo l'ora di accogliervi!"
+          "de": "Wir melden uns innerhalb von 24 Stunden mit Ihrem persönlichen Angebot",
+          "en": "We will respond within 24 hours with your personalised offer",
+          "it": "Risponderemo entro 24 ore con la vostra offerta personalizzata"
         },
         "submit": {
           "de": "Jetzt Verfügbarkeit prüfen",
@@ -473,9 +560,9 @@
           "it": "Invio in corso..."
         },
         "openingNotice": {
-          "de": "",
-          "en": "",
-          "it": ""
+          "de": "Wir sind ab 2. April 2026 wieder für Sie da. Unser Reservierungsbüro ist von Montag bis Freitag von 8 bis 17 Uhr erreichbar.",
+          "en": "We will be back for you from April 2, 2026. Our reservation office is available Monday to Friday from 8 am to 5 pm.",
+          "it": "Saremo di nuovo a vostra disposizione dal 2 aprile 2026. Il nostro ufficio prenotazioni è disponibile dal lunedì al venerdì dalle 8 alle 17."
         }
       }
     },
@@ -491,11 +578,11 @@
         "it": "Cosa Dicono i Nostri Ospiti"
       },
       "description": {
-        "de": "Unsere Gäste schätzen die herzliche Atmosphäre, den erstklassigen Service und die atemberaubende Lage in den Dolomiten. Lesen Sie, was andere über ihren Aufenthalt bei uns berichten.",
-        "en": "Our guests appreciate the warm atmosphere, first-class service and stunning location in the Dolomites. Read what others have to say about their stay with us.",
-        "it": "I nostri ospiti apprezzano l'atmosfera calorosa, il servizio di prima classe e la posizione mozzafiato nelle Dolomiti. Leggete cosa dicono gli altri del loro soggiorno da noi."
+        "de": "Lesen Sie die Erfahrungen unserer Gäste und lassen Sie sich von ihren begeisterten Bewertungen überzeugen.",
+        "en": "Read our guests' experiences and be convinced by their enthusiastic reviews.",
+        "it": "Leggete le esperienze dei nostri ospiti e lasciatevi convincere dalle loro entusiastiche recensioni."
       },
-      "image": "/placeholder.svg"
+      "image": "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--77_2558.jpg"
     },
     "faqs": {
       "badge": {
@@ -504,14 +591,14 @@
         "it": "Buono a Sapersi"
       },
       "title": {
-        "de": "Häufige Fragen",
+        "de": "Häufig gestellte Fragen",
         "en": "Frequently Asked Questions",
-        "it": "Domande frequenti"
+        "it": "Domande Frequenti"
       },
       "description": {
-        "de": "Hier finden Sie Antworten auf die häufigsten Fragen zu Ihrem Aufenthalt. Bei weiteren Fragen steht Ihnen unser Team gerne zur Verfügung.",
-        "en": "Here you will find answers to the most common questions about your stay. If you have any further questions, our team will be happy to help.",
-        "it": "Qui troverete le risposte alle domande più frequenti sul vostro soggiorno. Per ulteriori domande, il nostro team sarà lieto di aiutarvi."
+        "de": "Hier finden Sie Antworten auf die wichtigsten Fragen rund um Ihren Aufenthalt im Hotel Mignon.",
+        "en": "Here you will find answers to the most important questions about your stay at Hotel Mignon.",
+        "it": "Qui troverete le risposte alle domande più importanti sul vostro soggiorno all'Hotel Mignon."
       }
     },
     "offers": {
@@ -521,14 +608,14 @@
         "it": "Offerte"
       },
       "title": {
-        "de": "Unsere aktuellen Angebote",
-        "en": "Our Current Offers",
-        "it": "Le Nostre Offerte Attuali"
+        "de": "Unsere exklusiven Angebote",
+        "en": "Our Exclusive Offers",
+        "it": "Le Nostre Offerte Esclusive"
       },
       "description": {
-        "de": "Entdecken Sie unsere saisonalen Angebote für Ihren perfekten Urlaub in Südtirol – ob Wellness, Wandern, Skifahren oder kulinarische Erlebnisse.",
-        "en": "Discover our seasonal offers for your perfect holiday in South Tyrol – whether wellness, hiking, skiing or culinary experiences.",
-        "it": "Scoprite le nostre offerte stagionali per la vostra vacanza perfetta in Alto Adige – che sia wellness, escursioni, sci o esperienze culinarie."
+        "de": "Entdecken Sie unsere attraktiven Arrangements und Packages für einen unvergesslichen Aufenthalt in Meran.",
+        "en": "Discover our attractive arrangements and packages for an unforgettable stay in Merano.",
+        "it": "Scoprite i nostri interessanti arrangiamenti e pacchetti per un soggiorno indimenticabile a Merano."
       }
     },
     "rooms": {
@@ -538,14 +625,14 @@
         "it": "CAMERE & SUITE"
       },
       "title": {
-        "de": "Unsere Unterkünfte",
-        "en": "Our Accommodations",
-        "it": "I Nostri Alloggi"
+        "de": "Luxuriöse Zimmer & Suiten",
+        "en": "Luxurious Rooms & Suites",
+        "it": "Camere & Suite Lussuose"
       },
       "description": {
-        "de": "Komfortable Zimmer und Suiten mit Blick auf die Berge. Moderne Ausstattung und traditioneller Südtiroler Charme vereinen sich zu einem einzigartigen Wohnerlebnis.",
-        "en": "Comfortable rooms and suites with mountain views. Modern amenities and traditional South Tyrolean charm combine to create a unique living experience.",
-        "it": "Camere e suite confortevoli con vista sulle montagne. Comfort moderni e fascino tradizionale altoatesino si uniscono per un'esperienza abitativa unica."
+        "de": "Die einfachste Kur der Welt findet auf Ihrem Balkon statt. Einatmen, genießen, abschalten. Erstklassig gestaltet und mit allem Luxus ausgestattet.",
+        "en": "The simplest cure in the world takes place on your balcony. Breathe in, enjoy, switch off. First-class designed and equipped with every luxury.",
+        "it": "La cura più semplice del mondo avviene sul vostro balcone. Respirare, godersi, staccare. Design di prima classe e dotato di ogni lusso."
       },
       "tabs": {
         "all": {
@@ -564,7 +651,7 @@
           "it": "Suite"
         }
       },
-      "logoImage": "/placeholder.svg"
+      "logoImage": "https://www.hotelmignon.com/grafik/template/logo_white.svg"
     }
   }
 }

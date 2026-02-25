@@ -2,61 +2,61 @@
 // HOTEL_CONFIG - Core hotel identity & contact
 // ============================================
 export const HOTEL_CONFIG = {
-  name: "Hotel Name",
-  shortName: "Hotel",
+  name: "Hotel Mignon",
+  shortName: "Mignon",
   type: "Hotel" as const,
 
   location: {
-    street: "Musterstraße 1",
-    postalCode: "IT-39000",
-    city: "Stadt",
+    street: "Via Grabmayr 5",
+    postalCode: "IT-39012",
+    city: "Meran",
     region: "Südtirol",
     country: "Italien",
     coordinates: {
-      lat: 46.5,
-      lng: 11.5,
+      lat: 46.6688,
+      lng: 11.1597,
     },
   },
 
   contact: {
-    email: "info@example.com",
+    email: "info@hotelmignon.com",
     phone: {
-      main: { display: "+39 0000 000 000", href: "tel:+390000000000" },
+      main: { display: "+39 0473 236300", href: "tel:+390473236300" },
       whatsapp: {
         display: "",
         href: "",
       },
     },
     website: {
-      main: "https://www.example.com",
-      booking: "",
+      main: "https://www.hotelmignon.com",
+      booking: "https://www.hotelmignon.com/buchen",
     },
   },
 
   social: {
-    facebook: "",
-    instagram: "",
+    facebook: "https://www.facebook.com/hotelmignon",
+    instagram: "https://www.instagram.com/hotelmignon",
     youtube: undefined,
   },
 
   legal: {
     taxId: "",
     imprint: {
-      de: "",
-      en: "",
-      it: "",
+      de: "https://www.hotelmignon.com/de/impressum",
+      en: "https://www.hotelmignon.com/en/imprint",
+      it: "https://www.hotelmignon.com/it/impressum",
     },
     privacy: {
-      de: "",
-      en: "",
-      it: "",
+      de: "https://www.hotelmignon.com/de/datenschutz",
+      en: "https://www.hotelmignon.com/en/privacy",
+      it: "https://www.hotelmignon.com/it/privacy",
     },
   },
 
   branding: {
     logo: {
-      main: "/placeholder.svg",
-      alt: "/placeholder.svg",
+      main: "https://www.hotelmignon.com/grafik/template/logo_white.svg",
+      alt: "https://www.hotelmignon.com/grafik/template/logo_white.svg",
     },
     dimensions: {
       mobile: { width: 132, height: 74 },
@@ -66,7 +66,7 @@ export const HOTEL_CONFIG = {
 
   copyright: {
     year: 2026,
-    holder: "Hotel Name",
+    holder: "Hotel Mignon",
   },
 };
 
@@ -75,22 +75,22 @@ export const HOTEL_CONFIG = {
 // ============================================
 export const BOOKING_CONFIG = {
   bookingUrls: {
-    de: "",
-    en: "",
-    it: "",
+    de: "https://www.hotelmignon.com/buchen",
+    en: "https://www.hotelmignon.com/buchen",
+    it: "https://www.hotelmignon.com/buchen",
   },
 
   dates: {
-    minBookingDate: "2026-02-21",
+    minBookingDate: "2026-03-04",
   },
 
   checkIn: {
     from: "14:00",
-    to: "",
+    to: "18:00",
   },
 
   checkOut: {
-    until: "11:00",
+    until: "10:30",
   },
 
   touristTax: {
@@ -111,7 +111,7 @@ export const BOOKING_CONFIG = {
   },
 
   policies: {
-    pets: { allowed: false, fee: 0, per: "" },
+    pets: { allowed: true, fee: 25, per: "day" },
     additionalPerson: { fee: 0, per: "night" },
     breakfastOnlyDeduction: { amount: 0, per: "person" },
   },
@@ -121,7 +121,7 @@ export const BOOKING_CONFIG = {
 // TECHNICAL_CONFIG - Dev/deployment settings
 // ============================================
 export const TECHNICAL_CONFIG = {
-  projectId: "hotel-template",
+  projectId: "A1028",
 
   urls: {
     production: "https://example.com",
@@ -133,9 +133,9 @@ export const TECHNICAL_CONFIG = {
   },
 
   email: {
-    from: "info@example.com",
-    replyTo: "info@example.com",
-    transactional: "hotel@updates.example.com",
+    from: "noreply@example.com",
+    replyTo: "info@hotelmignon.com",
+    transactional: "hotelmignon@updates.example.com",
     assetsBaseUrl: "https://example.com",
   },
 
@@ -150,45 +150,33 @@ export const TECHNICAL_CONFIG = {
 // ============================================
 export const SEO_CONFIG = {
   baseUrl: "https://example.com",
-  ogImage: "/placeholder.svg",
+  ogImage: "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--73_2525.png",
 
   home: {
     de: {
-      title: "Hotel Name - Urlaub in Südtirol",
-      description:
-        "Willkommen im Hotel Name in Südtirol. Genießen Sie Ihren Urlaub mit Wellness, Frühstück und traumhaftem Blick auf die Dolomiten.",
-      ogTitle: "Hotel Name - Urlaub in Südtirol",
-      ogDescription:
-        "Hotel Name: Ihr Urlaubsziel in Südtirol mit Wellness und Frühstück.",
+      title: "Hotel Mignon Meran | 5-Sterne Wellness Südtirol",
+      description: "Ihr exklusives 5-Sterne-Hotel in Meran mit 2.000 m² Park Spa, mediterraner Parkanlage und regionaler Gourmetküche. Luxuriöse Suiten für unvergessliche Momente.",
+      ogTitle: "Hotel Mignon Meran | 5-Sterne Luxushotel in Südtirol",
+      ogDescription: "Erleben Sie puren Luxus im Hotel Mignon in Meran. 10.000 m² Park, 2.000 m² Wellness-Oase und Südtiroler Gourmetküche. Jetzt anfragen!",
       ogLocale: "de_DE",
     },
     en: {
-      title: "Hotel Name - Holiday in South Tyrol",
-      description:
-        "Welcome to Hotel Name in South Tyrol. Enjoy your holiday with wellness, breakfast and stunning views of the Dolomites.",
-      ogTitle: "Hotel Name - Holiday in South Tyrol",
-      ogDescription:
-        "Hotel Name: Your holiday destination in South Tyrol with wellness and breakfast.",
+      title: "Hotel Mignon Merano | 5-Star Wellness South Tyrol",
+      description: "Your exclusive 5-star hotel in Merano with 2,000 m² Park Spa, Mediterranean park and regional gourmet cuisine. Luxurious suites for unforgettable moments.",
+      ogTitle: "Hotel Mignon Merano | 5-Star Luxury Hotel in South Tyrol",
+      ogDescription: "Experience pure luxury at Hotel Mignon in Merano. 10,000 m² park, 2,000 m² wellness oasis and South Tyrolean gourmet cuisine. Enquire now!",
       ogLocale: "en_US",
     },
     it: {
-      title: "Hotel Name - Vacanza in Alto Adige",
-      description:
-        "Benvenuti all'Hotel Name in Alto Adige. Godetevi la vostra vacanza con wellness, colazione e vista mozzafiato sulle Dolomiti.",
-      ogTitle: "Hotel Name - Vacanza in Alto Adige",
-      ogDescription:
-        "Hotel Name: La vostra destinazione di vacanza in Alto Adige con wellness e colazione.",
+      title: "Hotel Mignon Merano | 5 Stelle Wellness Alto Adige",
+      description: "Il vostro esclusivo hotel a 5 stelle a Merano con 2.000 m² di Park Spa, parco mediterraneo e cucina gourmet regionale. Suite lussuose per momenti indimenticabili.",
+      ogTitle: "Hotel Mignon Merano | Hotel di Lusso 5 Stelle in Alto Adige",
+      ogDescription: "Vivete il lusso puro all'Hotel Mignon a Merano. Parco di 10.000 m², oasi benessere di 2.000 m² e cucina gourmet altoatesina. Richiedete ora!",
       ogLocale: "it_IT",
     },
   },
 
-  keywords: [
-    "Hotel Südtirol",
-    "Urlaub Dolomiten",
-    "Holiday South Tyrol",
-    "Vacanza Alto Adige",
-    "Wellness Südtirol",
-  ],
+  keywords: ["Hotel Mignon","5 Sterne Hotel Meran","Wellness Hotel Südtirol","Luxury Hotel Merano","Park Spa","Gourmet Hotel","Belvita Hotel","Leading Wellnesshotel","Meran Urlaub","Südtirol Wellness"],
 };
 
 // ============================================

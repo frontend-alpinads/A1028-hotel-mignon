@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { WipScreen } from "@/components/wip-screen";
 import { headers } from "next/headers";
 import { HOTEL_CONFIG, SEO_CONFIG, TECHNICAL_CONFIG } from "@/hotel-config";
 
-const montserrat = Montserrat({
+const eb-garamond = EB_Garamond({
   subsets: ["latin"],
-  variable: "--font-montserrat",
+  variable: "--font-eb-garamond",
   display: "swap",
 });
 
@@ -87,7 +87,7 @@ export default async function RootLayout({
         {/* End Google Tag Manager */}
       </head>
       <body
-        className={`${montserrat.variable} font-body text-foreground bg-background antialiased`}
+        className={`${eb-garamond.variable} font-body text-foreground bg-background antialiased`}
       >
         {TECHNICAL_CONFIG.analytics.gtmId && (
           <iframe
@@ -99,10 +99,7 @@ export default async function RootLayout({
         )}
         <WipScreen>{children}</WipScreen>
         <Analytics />
-        {/* <ScriptsLoader /> */}
       </body>
     </html>
   );
 }
-
-// Trigger deployment
