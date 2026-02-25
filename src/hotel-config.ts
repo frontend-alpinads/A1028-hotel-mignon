@@ -124,7 +124,7 @@ export const TECHNICAL_CONFIG = {
   projectId: "A1028",
 
   urls: {
-    production: "https://example.com",
+    production: "https://holiday.hotelmignon.com",
     staging: "",
   },
 
@@ -133,10 +133,10 @@ export const TECHNICAL_CONFIG = {
   },
 
   email: {
-    from: "noreply@example.com",
+    from: "noreply@hotelmignon.com",
     replyTo: "info@hotelmignon.com",
-    transactional: "hotelmignon@updates.example.com",
-    assetsBaseUrl: "https://example.com",
+    transactional: "hotelmignon@updates.hotelmignon.com",
+    assetsBaseUrl: "https://holiday.hotelmignon.com",
   },
 
   credits: {
@@ -149,7 +149,7 @@ export const TECHNICAL_CONFIG = {
 // SEO_CONFIG - Metadata for all languages
 // ============================================
 export const SEO_CONFIG = {
-  baseUrl: "https://example.com",
+  baseUrl: "https://holiday.hotelmignon.com",
   ogImage: "https://www.hotelmignon.com/grafik/resize/800x473_upload-prices-offer--hotel-ambiente--73_2525.png",
 
   home: {
