@@ -6,7 +6,7 @@ import { WipScreen } from "@/components/wip-screen";
 import { headers } from "next/headers";
 import { HOTEL_CONFIG, SEO_CONFIG, TECHNICAL_CONFIG } from "@/hotel-config";
 
-const eb-garamond = EB_Garamond({
+const ebGaramond = EB_Garamond({
   subsets: ["latin"],
   variable: "--font-eb-garamond",
   display: "swap",
@@ -87,7 +87,7 @@ export default async function RootLayout({
         {/* End Google Tag Manager */}
       </head>
       <body
-        className={`${eb-garamond.variable} font-body text-foreground bg-background antialiased`}
+        className={`${ebGaramond.variable} font-body text-foreground bg-background antialiased`}
       >
         {TECHNICAL_CONFIG.analytics.gtmId && (
           <iframe
